@@ -11,8 +11,9 @@
     <properties>
         <maven.compiler.source>24</maven.compiler.source>
         <maven.compiler.target>24</maven.compiler.target>
-        <project.build.sourceEncoding>UTF-8</project.buil
-    </dependency>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <dependencies>
     <dependency>
         <groupId>org.springframework.boot</groupId>
         <artifactId>spring-boot-starter-web</artifactId>
@@ -23,5 +24,11 @@
         <artifactId>mongodb-driver-sync</artifactId>
         <version>5.4.0</version>
     </dependency>
+    <dependency>
+    <groupId>org.springframework.boot</groupId>
+    <artifactId>spring-boot-starter-test</artifactId>
+    <version>3.4.4</version>
+    <scope>test</scope>
+</dependency>
 </dependencies>
 </project>
